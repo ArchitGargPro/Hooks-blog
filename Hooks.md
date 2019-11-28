@@ -200,7 +200,7 @@ useEffect(() => {
     // Do something
 }, []);
 ```
-Let's see some usages, in lifecycle methods
+Let's see some usages, in lifecycle methods  
 --- ComponentDidMount
 ##### Without Hooks:
 ```
@@ -322,7 +322,7 @@ petals: 30,
 color: "red"
 }`
 and can be used as 
-`<p>Colour of rose is { flower.color }.</p>` 
+`<p>Colour of rose is { flower.color }.</p>`   
 It will run each time when the context is updated
 
 >You must have got the '_context_' of this blog if you are still here, kindly have a look at "Some rules to remember" below:
@@ -349,7 +349,7 @@ Some other commonly used Hooks are:
     -   [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
     -   [useImperativeHandle](https://reactjs.org/docs/hooks-reference.html#useimperativehandle)
     -   [useLayoutEffect](https://reactjs.org/docs/hooks-reference.html#uselayouteffect)
-    -   [useDebugValue](https://reactjs.org/docs/hooks-reference.html#usedebugvalue)
+    -   [useDebugValue](https://reactjs.org/docs/hooks-reference.html#usedebugvalue)   
 You can see a list of React Hooks [here](https://reactjs.org/docs/hooks-reference.html).
 ##### Custom Hooks
 A custom Hook is a function whose name starts with ”`use`” and that may call other Hooks and, lets you extract component logic into reusable functions.
@@ -375,4 +375,4 @@ Now, we can use our custom hook,
 ```
 Learn more about how to create the [custom hooks](https://reactjs.org/docs/hooks-custom.html) in detail.
 
-Official docs for React Hooks are available [here](https://reactjs.org/docs/hooks-intro.html).
+[see](https://reactjs.org/docs/hooks-intro.html) official docs for React Hooks.
